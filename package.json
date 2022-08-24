@@ -1,0 +1,62 @@
+{
+  "name": "vue3-admin-template",
+  "version": "1.9.1",
+  "license": "MIT",
+  "author": "BarryW(724798408@qq.com)",
+  "scripts": {
+    "dev": "vite --mode serve-dev",
+    "build": "vite build --mode build",
+    "lint": "eslint --ext .js,.jsx,.vue,.ts,.tsx src --fix"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.26"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.4",
+    "axios": "0.21.3",
+    "echarts": "5.3.2",
+    "element-plus": "^2.2.9",
+    "mitt": "3.0.0",
+    "moment-mini": "2.22.1",
+    "nprogress": "0.2.0",
+    "path": "0.12.7",
+    "path-to-regexp": "6.2.0",
+    "pinia": "^2.0.16",
+    "tinymce": "4.9.11",
+    "vue": "3.2.37",
+    "vue-router": "4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "1.8.2",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vue/cli-service": "4.5.17",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "@vueuse/core": "^8.7.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-define-config": "1.2.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-vue": "8.1.1",
+    "prettier": "2.2.1",
+    "sass": "^1.52.1",
+    "svg-sprite-loader": "6.0.11",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-vue-components": "^0.19.5",
+    "vite": "^3.0.7",
+    "vite-plugin-svg-icons": "1.0.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "engines": {
+    "node": ">= 16 <18",
+    "npm": ">= 6 <8"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint"
+  }
+}
